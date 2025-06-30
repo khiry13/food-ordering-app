@@ -13,17 +13,17 @@ const Navbar = ({ translations }: { translations: {[key: string]: string} }) => 
   const links = [
     {
       id: crypto.randomUUID(),
-      title: translations.navbar.menu,
+      title: translations.menu,
       href: Routes.MENU,
     },
     {
       id: crypto.randomUUID(),
-      title: translations.navbar.about,
+      title: translations.about,
       href: Routes.ABOUT,
     },
     {
       id: crypto.randomUUID(),
-      title: translations.navbar.contact,
+      title: translations.contact,
       href: Routes.CONTACT,
     },
   ];
